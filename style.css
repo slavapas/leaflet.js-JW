@@ -1,2 +1,8 @@
 /* Styles go here */
+.leaflet-map-pane {
+    z-index: 1 !important;
+}
 
+.leaflet-google-layer {
+    z-index: 0 !important;
+}
