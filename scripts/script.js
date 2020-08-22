@@ -1,7 +1,7 @@
 var map = L.map('map');
 
 function onEachFeature(feature, layer) {
-    var popupContent = "<b>Имя: </b> " + feature.properties.Name + "</br><b>Адресс: </b>" + feature.properties.Address + "</br><b>Город: </b>" + feature.properties.City + "</br><b>Собрание: </b>" + feature.properties.Congregation+ "</br><b>Телефон: </b>" + feature.properties.Tel;
+    var popupContent = "<b>Номер: </b>" + feature.properties.Nr + "</br><b>Имя: </b> " + feature.properties.Name + "</br><b>Адресс: </b>" + feature.properties.Address + "</br><b>Город: </b>" + feature.properties.City + "</br><b>Собрание: </b>" + feature.properties.Congregation+ "</br><b>Телефон: </b>" + feature.properties.Tel;
 
     if (feature.properties && feature.properties.popupContent) {
         popupContent += feature.properties.popupContent;
