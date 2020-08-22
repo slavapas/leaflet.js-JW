@@ -1,6 +1,25 @@
 // Code goes here
+// [{
+//         "type": "Feature",
+//         "properties": {
+//             "Name": "БРА - Бездитко Иванна Игоревна",                    
+//             "Address":"бул. Нестерова 18, кор. 1, кв. 28"
+//         },"geometry": {"type": "Point","coordinates": [34.55519914627075,49.59290945425261]}
+//     },
+//     {
+//         "type": "Feature",
+//         "properties": {
+//             "Name": "Yishun Community Hospital",                    
+//             "Address":"My Address 2"
+//         },
+//         "geometry": {
+//             "type": "Point",
+//             "coordinates": [34.6551991427075,49.6929095425261]
+//         }
+//     }
 
-var hospitals = [{
+// ];
+var servants = [{
     "type": "Feature",
     "properties": {
         "Nr": "1",
@@ -9,13 +28,13 @@ var hospitals = [{
         "City": "Полтава",
         "Region": "Полтавская Область",
         "geometry/coordinates/0": "49.6026082",
-        "geometry/coordinates/1": "34.4980707",
+        "geometry/coordinates/1": "34.5000707",
         "Tel": "0996787493",
         "Congregation": "Браилки",
         "marker-color": "blue",
     },
     "geometry": {
-        "coordinates": [34.4980707, 49.6026082 ],
+        "coordinates": [34.5000707, 49.6026082 ],
             "type": "Point"
         }
     },
@@ -28,13 +47,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.5929748",
-            "geometry/coordinates/1": "34.5213326",
+            "geometry/coordinates/1": "34.5233326",
             "Tel": "0958177880",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.5213326, 49.5929748],
+            "coordinates": [34.5233326, 49.5929748],
             "type": "Point"
         }
     },
@@ -47,13 +66,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.6040668",
-            "geometry/coordinates/1": "34.4858462",
+            "geometry/coordinates/1": "34.4878462",
             "Tel": "0733106095",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.4858462, 49.6040668],
+            "coordinates": [34.4878462, 49.6040668],
             "type": "Point"
         }
     },
@@ -66,13 +85,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.6047398",
-            "geometry/coordinates/1": "34.4880468",
+            "geometry/coordinates/1": "34.4900468",
             "Tel": "0996584988",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.4880468, 49.6047398],
+            "coordinates": [34.4900468, 49.6047398],
             "type": "Point"
         }
     },
@@ -85,13 +104,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.6047398",
-            "geometry/coordinates/1": "34.4880468",
+            "geometry/coordinates/1": "34.4900468",
             "Tel": "0662014179",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.4880468, 49.6047398],
+            "coordinates": [34.4900468, 49.6047398],
             "type": "Point"
         }
     },
@@ -104,13 +123,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.6040668",
-            "geometry/coordinates/1": "34.4858462",
+            "geometry/coordinates/1": "34.4878462",
             "Tel": "0661717028",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.4858462, 49.6040668],
+            "coordinates": [34.4878462, 49.6040668],
             "type": "Point"
         }
     },
@@ -123,13 +142,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.6016678",
-            "geometry/coordinates/1": "34.6092076",
+            "geometry/coordinates/1": "34.6112076",
             "Tel": "0508714496\n0635657627\n0681664057",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.6092076, 49.6016678],
+            "coordinates": [34.6112076, 49.6016678],
             "type": "Point"
         }
     },
@@ -142,13 +161,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.6022932",
-            "geometry/coordinates/1": "34.5259502",
+            "geometry/coordinates/1": "34.5279502",
             "Tel": "0669280469\n0667109196",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.5259502, 49.6022932],
+            "coordinates": [34.5279502, 49.6022932],
             "type": "Point"
         }
     },
@@ -161,14 +180,14 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.601765",
-            "geometry/coordinates/1": "34.4818486",
+            "geometry/coordinates/1": "34.4838486",
             "Activity": "сдают отчет не приходят в зал",
             "Tel": "095-540--17-50",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.4818486, 49.601765],
+            "coordinates": [34.4838486, 49.601765],
             "type": "Point"
         }
     },
@@ -181,14 +200,14 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.5456045",
-            "geometry/coordinates/1": "34.4984855",
+            "geometry/coordinates/1": "34.5004855",
             "Activity": "не активный",
             "Tel": "0933706040",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.4984855, 49.5456045],
+            "coordinates": [34.5004855, 49.5456045],
             "type": "Point"
         }
     },
@@ -201,13 +220,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.6019712",
-            "geometry/coordinates/1": "34.4920258",
+            "geometry/coordinates/1": "34.4940258",
             "Tel": "0633539102",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.4920258, 49.6019712],
+            "coordinates": [34.4940258, 49.6019712],
             "type": "Point"
         }
     },
@@ -220,13 +239,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.6026082",
-            "geometry/coordinates/1": "34.4980707",
+            "geometry/coordinates/1": "34.5000707",
             "Activity": "сдают отчет не приходят в зал",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.4980707, 49.6026082],
+            "coordinates": [34.5000707, 49.6026082],
             "type": "Point"
         }
     },
@@ -239,12 +258,12 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "geometry/coordinates/0": "49.5998543",
-            "geometry/coordinates/1": "34.5366934",
+            "geometry/coordinates/1": "34.5386934",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.5366934, 49.5998543],
+            "coordinates": [34.5386934, 49.5998543],
             "type": "Point"
         }
     },
@@ -256,14 +275,14 @@ var hospitals = [{
             "Address": "ул. Шведская 22, кв. 45",
             "City": "Полтава",
             "Region": "Полтавская Область",
-            "geometry/coordinates/0": "49.6009213",
-            "geometry/coordinates/1": "34.5368399",
+            "geometry/coordinates/0": "49.60098",
+            "geometry/coordinates/1": "34.53921",
             "Tel": "0951926410",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.5368399, 49.6009213],
+            "coordinates": [34.53921, 49.60098],
             "type": "Point"
         }
     },
@@ -641,14 +660,14 @@ var hospitals = [{
             "Address": "ул. Центральная 89",
             "City": "с. Тахтаулово",
             "Region": "Полтавская Область",
-            "geometry/coordinates/0": "49.662189",
-            "geometry/coordinates/1": "34.5106264",
+            "geometry/coordinates/0": "49.66456",
+            "geometry/coordinates/1": "34.51007",
             "Tel": "0504046104",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.5106264, 49.662189],
+            "coordinates": [34.51007, 49.66456],
             "type": "Point"
         }
     },
@@ -660,13 +679,13 @@ var hospitals = [{
             "Address": "ул. Центральная 89",
             "City": "с. Тахтаулово",
             "Region": "Полтавская Область",
-            "geometry/coordinates/0": "49.662189",
-            "geometry/coordinates/1": "34.5106264",
+            "geometry/coordinates/0": "49.66456",
+            "geometry/coordinates/1": "34.51007",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.5106264, 49.662189],
+            "coordinates": [34.51007, 49.66456],
             "type": "Point"
         }
     },
@@ -678,13 +697,13 @@ var hospitals = [{
             "Address": "ул. Центральная 89",
             "City": "с. Тахтаулово",
             "Region": "Полтавская Область",
-            "geometry/coordinates/0": "49.662189",
-            "geometry/coordinates/1": "34.5106264",
+            "geometry/coordinates/0": "49.66456",
+            "geometry/coordinates/1": "34.51007",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.5106264, 49.662189],
+            "coordinates": [34.51007, 49.66456],
             "type": "Point"
         }
     },
@@ -696,14 +715,14 @@ var hospitals = [{
             "Address": "ул. Центральная 89",
             "City": "с. Тахтаулово",
             "Region": "Полтавская Область",
-            "geometry/coordinates/0": "49.662189",
+            "geometry/coordinates/0": "49.66456",
             "geometry/coordinates/1": "34.5106264",
             "Tel": "0665272744",
             "Congregation": "Браилки",
             "marker-color": "blue",
         },
         "geometry": {
-            "coordinates": [34.5106264, 49.662189],
+            "coordinates": [34.51007, 49.66456],
             "type": "Point"
         }
     },
@@ -3657,13 +3676,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "Index": "36003",
-            "geometry/coordinates/0": "49.5918479",
-            "geometry/coordinates/1": "34.5622725",
+            "geometry/coordinates/0": "49.59186",
+            "geometry/coordinates/1": "34.56448",
             "Congregation": "Центральное",
             "marker-color": "red",
         },
         "geometry": {
-            "coordinates": [34.5622725, 49.5918479],
+            "coordinates": [34.56448, 49.59186],
             "type": "Point"
         }
     },
@@ -4193,14 +4212,14 @@ var hospitals = [{
             "City": "с. Селещина/ Машевский",
             "Region": "Полтавская Область",
             "Index": "39430",
-            "geometry/coordinates/0": "49.4601216",
-            "geometry/coordinates/1": "34.8221105",
+            "geometry/coordinates/0": "49.46388",
+            "geometry/coordinates/1": "34.84432",
             "Activity": "не приходят в зал",
             "Congregation": "Центральное",
             "marker-color": "red",
-        },
+        }, 
         "geometry": {
-            "coordinates": [34.8221105, 49.4601216],
+            "coordinates": [34.84432, 49.46388],
             "type": "Point"
         }
     },
@@ -7123,13 +7142,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "Index": "-",
-            "geometry/coordinates/0": "49.9414966",
-            "geometry/coordinates/1": "36.1536407",
+            "geometry/coordinates/0": "49.5902",
+            "geometry/coordinates/1": "34.56207",
             "Congregation": "Восточное",
             "marker-color": "yellow",
         },
         "geometry": {
-            "coordinates": [36.1536407, 49.9414966],
+            "coordinates": [34.56207,49.5902],
             "type": "Point"
         }
     },
@@ -7218,13 +7237,13 @@ var hospitals = [{
             "City": "Полтава",
             "Region": "Полтавская Область",
             "Index": "-",
-            "geometry/coordinates/0": "49.593565",
-            "geometry/coordinates/1": "34.5657264",
+            "geometry/coordinates/0": "49.59342",
+            "geometry/coordinates/1": "34.56734",
             "Congregation": "Восточное",
             "marker-color": "yellow",
         },
         "geometry": {
-            "coordinates": [34.5657264, 49.593565],
+            "coordinates": [34.56734, 49.59342],
             "type": "Point"
         }
     },

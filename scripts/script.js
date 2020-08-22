@@ -1,30 +1,5 @@
 var map = L.map('map');
 
-       
-
-
-// [{
-//         "type": "Feature",
-//         "properties": {
-//             "Name": "БРА - Бездитко Иванна Игоревна",                    
-//             "Address":"бул. Нестерова 18, кор. 1, кв. 28"
-//         },"geometry": {"type": "Point","coordinates": [34.55519914627075,49.59290945425261]}
-//     },
-//     {
-//         "type": "Feature",
-//         "properties": {
-//             "Name": "Yishun Community Hospital",                    
-//             "Address":"My Address 2"
-//         },
-//         "geometry": {
-//             "type": "Point",
-//             "coordinates": [34.6551991427075,49.6929095425261]
-//         }
-//     }
-
-// ];
-
-
 function onEachFeature(feature, layer) {
     var popupContent = "<b>Имя: </b> " + feature.properties.Name + "</br><b>Адресс: </b>" + feature.properties.Address + "</br><b>Город: </b>" + feature.properties.City + "</br><b>Собрание: </b>" + feature.properties.Congregation+ "</br><b>Телефон: </b>" + feature.properties.Tel;
 
@@ -36,7 +11,7 @@ function onEachFeature(feature, layer) {
 }
 
 
-map.setView([49.59290945425261, 34.55519914627075], 11);
+map.setView([49.59290945425261, 34.55519914627075], 13);
 
 mapLink =
 '<a href="http://openstreetmap.org">OpenStreetMap</a>';
@@ -47,6 +22,18 @@ L.tileLayer(
     }).addTo(map);
 
 
-L.geoJson(hospitals, {
+L.geoJson(servants, {
     onEachFeature: onEachFeature
 }).addTo(map);
+
+// here the script where you can view the coordinates on map
+var popup = L.popup();
+
+function onMapClick(e) {
+    popup
+        .setLatLng(e.latlng)
+        .setContent("You clicked the map at " + e.latlng.toString())
+        .openOn(map);
+}
+
+map.on('click', onMapClick);
